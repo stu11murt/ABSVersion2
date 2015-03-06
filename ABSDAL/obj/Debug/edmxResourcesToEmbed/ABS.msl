@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ABSModelStoreContainer" CdmEntityContainer="ABSEntities">
+    <EntitySetMapping Name="Bookings">
+      <EntityTypeMapping TypeName="ABSModel.Booking">
+        <MappingFragment StoreEntitySet="Bookings">
+          <ScalarProperty Name="BookingID" ColumnName="BookingID" />
+          <ScalarProperty Name="BookingRef" ColumnName="BookingRef" />
+          <ScalarProperty Name="OfficeRef" ColumnName="OfficeRef" />
+          <ScalarProperty Name="DateOfBooking" ColumnName="DateOfBooking" />
+          <ScalarProperty Name="Source" ColumnName="Source" />
+          <ScalarProperty Name="Venue" ColumnName="Venue" />
+          <ScalarProperty Name="PurposeOfEvent" ColumnName="PurposeOfEvent" />
+          <ScalarProperty Name="PartyName" ColumnName="PartyName" />
+          <ScalarProperty Name="GroupOrganiser" ColumnName="GroupOrganiser" />
+          <ScalarProperty Name="GroupSize" ColumnName="GroupSize" />
+          <ScalarProperty Name="BookinStatus" ColumnName="BookinStatus" />
+          <ScalarProperty Name="BookingSummary" ColumnName="BookingSummary" />
+          <ScalarProperty Name="DaySheetNotes" ColumnName="DaySheetNotes" />
+          <ScalarProperty Name="InternalOfficeNotes" ColumnName="InternalOfficeNotes" />
+          <ScalarProperty Name="SendEmail" ColumnName="SendEmail" />
+          <ScalarProperty Name="SendText" ColumnName="SendText" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerDetails">
+      <EntityTypeMapping TypeName="ABSModel.CustomerDetail">
+        <MappingFragment StoreEntitySet="CustomerDetails">
+          <ScalarProperty Name="CustomerDetailsId" ColumnName="CustomerDetailsId" />
+          <ScalarProperty Name="BookingId" ColumnName="BookingId" />
+          <ScalarProperty Name="HouseNumber" ColumnName="HouseNumber" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="PostCode" ColumnName="PostCode" />
+          <ScalarProperty Name="MainContactNo" ColumnName="MainContactNo" />
+          <ScalarProperty Name="SecondContactNo" ColumnName="SecondContactNo" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Twitter" ColumnName="Twitter" />
+          <ScalarProperty Name="Facebook" ColumnName="Facebook" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Events">
+      <EntityTypeMapping TypeName="ABSModel.Event">
+        <MappingFragment StoreEntitySet="Events">
+          <ScalarProperty Name="EventID" ColumnName="EventID" />
+          <ScalarProperty Name="BookingID" ColumnName="BookingID" />
+          <ScalarProperty Name="EventName" ColumnName="EventName" />
+          <ScalarProperty Name="EventTypeId" ColumnName="EventTypeId" />
+          <ScalarProperty Name="EventDuration" ColumnName="EventDuration" />
+          <ScalarProperty Name="EventDeposit" ColumnName="EventDeposit" />
+          <ScalarProperty Name="EventPrice" ColumnName="EventPrice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Purposes">
+      <EntityTypeMapping TypeName="ABSModel.Purpose">
+        <MappingFragment StoreEntitySet="Purpose">
+          <ScalarProperty Name="PurposeType" ColumnName="PurposeType" />
+          <ScalarProperty Name="PurposeId" ColumnName="PurposeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sources">
+      <EntityTypeMapping TypeName="ABSModel.Source">
+        <MappingFragment StoreEntitySet="Source">
+          <ScalarProperty Name="SourceType" ColumnName="SourceType" />
+          <ScalarProperty Name="SourceId" ColumnName="SourceId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Venues">
+      <EntityTypeMapping TypeName="ABSModel.Venue">
+        <MappingFragment StoreEntitySet="Venue">
+          <ScalarProperty Name="VenueType" ColumnName="VenueType" />
+          <ScalarProperty Name="VenueId" ColumnName="VenueId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Hotels">
+      <EntityTypeMapping TypeName="ABSModel.Hotel">
+        <MappingFragment StoreEntitySet="Hotels">
+          <ScalarProperty Name="TripleRoomTariff" ColumnName="TripleRoomTariff" />
+          <ScalarProperty Name="TwinRoomTariff" ColumnName="TwinRoomTariff" />
+          <ScalarProperty Name="DoubleRoomTariff" ColumnName="DoubleRoomTariff" />
+          <ScalarProperty Name="SingleRoomTariff" ColumnName="SingleRoomTariff" />
+          <ScalarProperty Name="PostCode" ColumnName="PostCode" />
+          <ScalarProperty Name="TownCity" ColumnName="TownCity" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="CheckOut" ColumnName="CheckOut" />
+          <ScalarProperty Name="CheckIn" ColumnName="CheckIn" />
+          <ScalarProperty Name="HotelName" ColumnName="HotelName" />
+          <ScalarProperty Name="Hoteld" ColumnName="Hoteld" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

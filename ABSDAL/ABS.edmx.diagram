@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1938a221290644699e0644cdfe35768d" Name="Diagram1">
+        <EntityTypeShape EntityType="ABSModel.Booking" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ABSModel.CustomerDetail" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ABSModel.Event" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ABSModel.Purpose" Width="1.5" PointX="8.25" PointY="3.75" />
+        <EntityTypeShape EntityType="ABSModel.Source" Width="1.5" PointX="8.25" PointY="0.75" />
+        <EntityTypeShape EntityType="ABSModel.Venue" Width="1.5" PointX="8.25" PointY="2.25" />
+        <EntityTypeShape EntityType="ABSModel.Hotel" Width="1.5" PointX="6.5" PointY="0.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

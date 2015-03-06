@@ -1,0 +1,10 @@
+c:\Users\DBD\documents\visual studio 2013\Projects\ABSCore1\ABSDAL\bin\Debug\ABSDAL.dll.config
+c:\Users\DBD\documents\visual studio 2013\Projects\ABSCore1\ABSDAL\bin\Debug\ABSDAL.dll
+c:\Users\DBD\documents\visual studio 2013\Projects\ABSCore1\ABSDAL\bin\Debug\ABSDAL.pdb
+c:\Users\DBD\documents\visual studio 2013\Projects\ABSCore1\ABSDAL\bin\Debug\EntityFramework.dll
+c:\Users\DBD\documents\visual studio 2013\Projects\ABSCore1\ABSDAL\bin\Debug\EntityFramework.SqlServer.dll
+c:\Users\DBD\documents\visual studio 2013\Projects\ABSCore1\ABSDAL\bin\Debug\EntityFramework.xml
+c:\Users\DBD\documents\visual studio 2013\Projects\ABSCore1\ABSDAL\bin\Debug\EntityFramework.SqlServer.xml
+c:\Users\DBD\documents\visual studio 2013\Projects\ABSCore1\ABSDAL\obj\Debug\ABSDAL.dll
+c:\Users\DBD\documents\visual studio 2013\Projects\ABSCore1\ABSDAL\obj\Debug\ABSDAL.pdb
+c:\Users\DBD\documents\visual studio 2013\Projects\ABSCore1\ABSDAL\obj\Debug\ABSDAL.csprojResolveAssemblyReference.cache
