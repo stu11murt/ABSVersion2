@@ -49,5 +49,25 @@ namespace ABSCore1.Helpers
             venues.Insert(0, vb);
             return venues;
         }
+
+
+        public static IEnumerable<Purpose> GetPurpose()
+        {
+            return GetPurposeData(new PurposeRepository());
+
+        }
+
+        public static IEnumerable<Purpose> GetPurposeData(PurposeRepository pp)
+        {
+            List<Purpose> purposes = pp.GetAll().ToList();
+
+            // add in please select option
+            Purpose pb = new Purpose();
+            pb.PurposeType = "- Please Select -";
+            pb.PurposeId = 0;
+            purposes.Insert(0, pb);
+            return purposes;
+
+        }
     }
 }

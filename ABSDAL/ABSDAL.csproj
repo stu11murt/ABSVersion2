@@ -81,12 +81,14 @@
     </Compile>
     <Compile Include="IBookingRepository.cs" />
     <Compile Include="IGenericRepository.cs" />
+    <Compile Include="IPurposeRepository.cs" />
     <Compile Include="ISourceRepository.cs" />
     <Compile Include="IVenueRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Purpose.cs">
       <DependentUpon>ABS.tt</DependentUpon>
     </Compile>
+    <Compile Include="PurposeRepository.cs" />
     <Compile Include="Source.cs">
       <DependentUpon>ABS.tt</DependentUpon>
     </Compile>

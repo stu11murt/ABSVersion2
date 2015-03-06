@@ -303,14 +303,7 @@
                         <div class="form-group">
                             <label class="col-sm-3 control-label">Purpose of Booking</label>
                             <div class="col-sm-5">
-                                <select class="populate placeholder" name="country" id="s2_country">
-                                    <option value="">-- Select --</option>
-                                    <option value="stu">Stag do</option>
-                                    <option value="sam">Hen do</option>
-                                    <option value="che">Birthday</option>
-                                    <option value="che">Agent</option>
-                                    <option value="che">Other</option>
-                                </select>
+                                @Html.DropDownList("Purpose", new SelectList(DropDownHelpers.GetPurpose(), "PurposeId", "PurposeType", Model.source))
                             </div>
                         </div>
                         <div class="form-group">

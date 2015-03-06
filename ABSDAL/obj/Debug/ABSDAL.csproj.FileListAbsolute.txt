@@ -8,3 +8,13 @@ c:\Users\DBD\documents\visual studio 2013\Projects\ABSCore1\ABSDAL\bin\Debug\Ent
 c:\Users\DBD\documents\visual studio 2013\Projects\ABSCore1\ABSDAL\obj\Debug\ABSDAL.dll
 c:\Users\DBD\documents\visual studio 2013\Projects\ABSCore1\ABSDAL\obj\Debug\ABSDAL.pdb
 c:\Users\DBD\documents\visual studio 2013\Projects\ABSCore1\ABSDAL\obj\Debug\ABSDAL.csprojResolveAssemblyReference.cache
+C:\Users\DBD\Documents\Visual Studio 2013\Projects\ABSCore1\ABSVersion2\ABSDAL\obj\Debug\ABSDAL.csprojResolveAssemblyReference.cache
+C:\Users\DBD\Documents\Visual Studio 2013\Projects\ABSCore1\ABSVersion2\ABSDAL\obj\Debug\ABSDAL.dll
+C:\Users\DBD\Documents\Visual Studio 2013\Projects\ABSCore1\ABSVersion2\ABSDAL\obj\Debug\ABSDAL.pdb
+C:\Users\DBD\Documents\Visual Studio 2013\Projects\ABSCore1\ABSVersion2\ABSDAL\bin\Debug\ABSDAL.dll.config
+C:\Users\DBD\Documents\Visual Studio 2013\Projects\ABSCore1\ABSVersion2\ABSDAL\bin\Debug\ABSDAL.dll
+C:\Users\DBD\Documents\Visual Studio 2013\Projects\ABSCore1\ABSVersion2\ABSDAL\bin\Debug\ABSDAL.pdb
+C:\Users\DBD\Documents\Visual Studio 2013\Projects\ABSCore1\ABSVersion2\ABSDAL\bin\Debug\EntityFramework.dll
+C:\Users\DBD\Documents\Visual Studio 2013\Projects\ABSCore1\ABSVersion2\ABSDAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DBD\Documents\Visual Studio 2013\Projects\ABSCore1\ABSVersion2\ABSDAL\bin\Debug\EntityFramework.xml
+C:\Users\DBD\Documents\Visual Studio 2013\Projects\ABSCore1\ABSVersion2\ABSDAL\bin\Debug\EntityFramework.SqlServer.xml
